@@ -396,7 +396,7 @@ async def extractSubtitles(path_to_file, user_id):
                     + subtitle["tags"]["title"]
                     + "."
                     + subtitle["codec_type"]
-                    + ".mka"
+                    + ".srt"
                 )
                 output_file = output_file.replace(" ", ".")
             except:
