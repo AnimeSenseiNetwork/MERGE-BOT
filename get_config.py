@@ -4,7 +4,7 @@ import os
 import subprocess
 from dotenv import load_dotenv
 
-CONFIG_FILE_URL = os.environ.get('CONFIG_FILE_URL')
+CONFIG_FILE_URL = os.environ.get('https://gist.githubusercontent.com/AnimeSenseiNetwork/71b4cbb3c8575c7ae3dbf00494fd952d/raw/sensei.env')
 try:
     if len(CONFIG_FILE_URL) == 0:
         raise TypeError
